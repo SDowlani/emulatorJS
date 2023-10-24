@@ -14,7 +14,7 @@ services:
       - /path/to/config:/config
       - /path/to/data:/data
     ports:
-      - 3020:3020
-      - 85:85
+      - 3020:3000
+      - 85:80
       - 4001:4001 #optional
     restart: unless-stopped
